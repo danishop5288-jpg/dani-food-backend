@@ -13,4 +13,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+dani:
+  jwt:
+    secret-key: dani-food-secret-key-2026-abcdefghijklmn
+    ttl: 7200000
+    employee-token-name: employee_token
